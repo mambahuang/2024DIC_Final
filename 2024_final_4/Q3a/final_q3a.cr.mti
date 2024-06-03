@@ -1,0 +1,16 @@
+C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3a/MPQ.v {1 {vlog -work work -stats=none C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3a/MPQ.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MPQ
+
+Top level modules:
+	MPQ
+
+} {} {}} C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3a/testfixture.v {1 {vlog -work work -stats=none C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3a/testfixture.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test
+-- Compiling module RAM
+
+Top level modules:
+	test
+
+} {} {}}

@@ -1,0 +1,97 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vIRAM
+Z0 !s110 1717388884
+!i10b 1
+!s100 kOkV^8Hiagg[LhF3A@M_E0
+IOVbjBkP6MWjBTi`JJ^3[=3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3c
+Z3 w1717380059
+Z4 8C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3c/testfixture.v
+Z5 FC:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3c/testfixture.v
+L0 114
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1717388884.000000
+Z8 !s107 C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3c/testfixture.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3c/testfixture.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@i@r@a@m
+vIROM
+R0
+!i10b 1
+!s100 3L3kY4YYoZB2eB8i]ODC82
+I?mY7]3h3GR?Xi8SF8_fec1
+R1
+R2
+R3
+R4
+R5
+L0 92
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@i@r@o@m
+vSORT
+R0
+!i10b 1
+!s100 H7DEfKZPmfgo0jnS7]c]N0
+IhmJGQdbX[G759n]h]Z=kj1
+R1
+R2
+w1717388880
+8C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3c/sort.v
+FC:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3c/sort.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3c/sort.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3c/sort.v|
+!i113 1
+R10
+R11
+n@s@o@r@t
+vtest
+R0
+!i10b 1
+!s100 f@=ZVX5<0];IZUVJF`IfS2
+I9hRDJKj2i7Szhi8:fo8k<0
+R1
+R2
+R3
+R4
+R5
+L0 7
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vMPQ
+Z0 !s110 1717385009
+!i10b 1
+!s100 J@0CE<h4onH0C_R6HbE3L1
+InTDbHJ:ERCIDi3:gUMnLo0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3b
+w1717384994
+8C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3b/MPQ.v
+FC:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3b/MPQ.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1717385009.000000
+!s107 C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3b/MPQ.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3b/MPQ.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@m@p@q
+vRAM
+R0
+!i10b 1
+!s100 E21EWk`SKf^X8WBC>h2P;3
+I7FZ^^MiS?98]gR34adU;J3
+R1
+R2
+Z7 w1717380059
+Z8 8C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3b/testfixture.v
+Z9 FC:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3b/testfixture.v
+L0 181
+R3
+r1
+!s85 0
+31
+R4
+Z10 !s107 C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3b/testfixture.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/angel/Dropbox/PC/Downloads/2024_final_4/Q3b/testfixture.v|
+!i113 1
+R5
+R6
+n@r@a@m
+vtest
+R0
+!i10b 1
+!s100 ^]48HnhhjTH_O`KoAb5Pz0
+IPCB7[]8IQJWE54FSVPe0P3
+R1
+R2
+R7
+R8
+R9
+L0 14
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
