@@ -44,7 +44,7 @@ always @(*) begin
         build : nxt_state = heapify;
         heapify : if(index == largest) nxt_state = ret_state;
                   else                 nxt_state = heapify;
-        write : if(IROM_A == 1) nxt_state = DONE;
+        write : if(IRAM_A == 1) nxt_state = DONE;
                 else         nxt_state = extract;
         extract : nxt_state = heapify;
         default : nxt_state = rst;
