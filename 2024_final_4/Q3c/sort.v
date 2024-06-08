@@ -22,7 +22,7 @@ localparam
     DONE     = 6;
 
 assign IROM_rd = 1;
-reg [7:0]A[0:15];
+reg [7:0]A[1:16];
 reg [3:0]state,nxt_state,ret_state;
 reg [3:0]build_i;
 reg [4:0]num;
@@ -39,12 +39,12 @@ end
 always @(*) begin
     case (state)
         rst : nxt_state = load;
-        load : if(num == 16) nxt_state = build;
+        load : if(IROM_A == 15) nxt_state = build;
                else          nxt_state = load;
         build : nxt_state = heapify;
         heapify : if(index == largest) nxt_state = ret_state;
                   else                 nxt_state = heapify;
-        write : if(num == 1) nxt_state = DONE;
+        write : if(IROM_A == 1) nxt_state = DONE;
                 else         nxt_state = extract;
         extract : nxt_state = heapify;
         default : nxt_state = rst;
