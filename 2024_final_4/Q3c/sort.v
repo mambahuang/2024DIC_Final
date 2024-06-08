@@ -27,7 +27,7 @@ reg [3:0]state,nxt_state,ret_state;
 reg [3:0]build_i;
 reg [4:0]num;
 //comb
-reg [5:0] largest,index;
+reg [5:0]largest,index;
 reg [5:0] left;
 reg [5:0] right;
 
@@ -40,12 +40,12 @@ always @(*) begin
     case (state)
         rst : nxt_state = load;
         load : if(IROM_A == 15) nxt_state = build;
-               else          nxt_state = load;
+               else             nxt_state = load;
         build : nxt_state = heapify;
-        heapify : if(index == largest) nxt_state = ret_state;
+        heapify : if(index==largest) nxt_state = ret_state;
                   else                 nxt_state = heapify;
-        write : if(IRAM_A == 1) nxt_state = DONE;
-                else         nxt_state = extract;
+        write : if(IRAM_A==1) nxt_state = DONE;
+                else            nxt_state = extract;
         extract : nxt_state = heapify;
         default : nxt_state = rst;
     endcase
@@ -55,9 +55,9 @@ always @(*) begin //max-heapify
     left = {index,1'b0};
     right = {index,1'b1};
     largest = index;
-    if((left <= num) && (A[left] > A[index])) 
+    if((right <= num) && (A[right] > A[index])) 
         largest = right;
-    if((right <= num) && (A[right] > A[largest])) 
+    if((left <= num) && (A[left] > A[largest])) 
         largest = left;
 end
 
